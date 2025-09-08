@@ -5,6 +5,8 @@ const PORT = process.env.PORT || 4002;
 
 app.use(express.json());
 
+
+
 app.get('/hotels', (req, res) => {
   res.json([{ msg: 'Hola desde hoteles' }]);
 });
