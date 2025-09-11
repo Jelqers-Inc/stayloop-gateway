@@ -8,15 +8,15 @@ apiEndpoints:
     host: localhost
     paths: '/ip'
   users:
-    host: https://stayloop-api.onrender.com
+    host: https://stayloop-users.onrender.com
     methods: 'GET, POST, PUT, DELETE'
     paths: '/users*'
   reservations:
-    host: https://stayloop-api.onrender.com
+    host: https://stayloop-reservations.onrender.com
     methods: 'GET, POST, PUT, DELETE'
     paths: '/reservations*'
   hotels:
-    host: https://stayloop-api.onrender.com
+    host: https://stayloop-hotels.onrender.com
     methods: 'GET, POST, PUT, DELETE'
     paths: '/hotels*'  
 serviceEndpoints:
