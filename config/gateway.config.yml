@@ -44,6 +44,10 @@ pipelines:
     policies:
     # Uncomment `key-auth:` when instructed to in the Getting Started guide.
     # - key-auth:
+      - rate-limit:
+          - action:
+              max: 100              
+              windowMs: 60000 
       - proxy:
           - action:
               serviceEndpoint: httpbin 
