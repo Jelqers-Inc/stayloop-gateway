@@ -23,11 +23,11 @@ serviceEndpoints:
   httpbin:
     url: 'https://httpbin.org'
   usersService:
-    url: 'https://stayloop-users.onrender.com'
+    url: 'https://stayloop-users.that-shele.deno.net'
   reservationsService:
     url: 'https://stayloop-reservations.onrender.com'
   hotelsService:
-    url: 'https://stayloop-hotels.onrender.com'
+    url: 'https://stayloop-hotels.vercel.app'
 policies:
   - basic-auth
   - cors
