@@ -18,7 +18,11 @@ apiEndpoints:
   hotels:
     host: '*'
     methods: 'GET, POST, PUT, DELETE'
-    paths: '/hotels*, /zones*, /images*, /roomtypes*'  
+    paths: 
+      - '/hotels*'  
+      - '/zones*'
+      - '/images*'
+      - '/roomtypes*'
 serviceEndpoints:
   httpbin:
     url: 'https://httpbin.org'
