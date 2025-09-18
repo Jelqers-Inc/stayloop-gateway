@@ -29,7 +29,7 @@ serviceEndpoints:
   httpbin:
     url: 'https://httpbin.org'
   usersService:
-    url: 'https://stayloop-users.that-shele.deno.net'
+    url: 'https://stayloop-users.vercel.app'
   reservationsService:
     url: 'https://stayloop-reservations.onrender.com'
   hotelsService:
