@@ -10,7 +10,9 @@ apiEndpoints:
   users:
     host: '*'
     methods: 'GET, POST, PUT, DELETE'
-    paths: '/users*'
+    paths: 
+      - '/users*'
+      - '/auth*'
   reservations:
     host: '*'
     methods: 'GET, POST, PUT, DELETE'
